@@ -1,0 +1,9 @@
+package cl.keanzato.app.builder;
+
+public class BuilderAutoTesla extends BuilderAuto {
+
+	@Override
+	public Auto construir() {
+		return null;
+	}
+}

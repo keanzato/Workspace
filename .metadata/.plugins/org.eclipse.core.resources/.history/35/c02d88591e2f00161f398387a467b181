@@ -1,0 +1,12 @@
+package cl.keanzato.app.builder;
+
+public class Director {
+
+	private BuilderAuto builder;
+	
+	public Auto construirAuto()
+	{
+		return null;
+		
+	}
+}

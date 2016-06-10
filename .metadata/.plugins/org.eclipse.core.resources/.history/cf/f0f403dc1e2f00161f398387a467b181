@@ -1,0 +1,7 @@
+package cl.keanzato.app.builder;
+
+public class GPS {
+
+	private String OS;
+	private String version;
+}

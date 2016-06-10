@@ -1,0 +1,13 @@
+package cl.keanzato.app.builder;
+
+import java.util.ArrayList;
+
+public class BuilderAutoTesla extends BuilderAuto {
+
+	@Override
+	public Auto construir() {
+		
+		ArrayList<Rueda> ruedas = new ArrayList<Rueda>();
+		Auto autoToyota = new Auto("Toyota", "Supra", );
+	}
+}

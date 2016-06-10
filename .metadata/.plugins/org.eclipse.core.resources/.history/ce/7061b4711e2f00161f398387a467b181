@@ -1,0 +1,6 @@
+package cl.keanzato.app.builder;
+
+public class Motor {
+
+	private int caballosDeFuerza;
+}

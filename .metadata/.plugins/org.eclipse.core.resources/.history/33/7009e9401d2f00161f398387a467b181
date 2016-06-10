@@ -1,0 +1,10 @@
+package cl.keanzato.app.builder;
+
+public abstract class BuilderAuto {
+
+	public Auto constructor()
+	{
+		return null;
+		
+	}
+}
