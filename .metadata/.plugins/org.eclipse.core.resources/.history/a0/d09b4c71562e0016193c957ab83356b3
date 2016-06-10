@@ -1,0 +1,6 @@
+package cl.curso.java.abstract_factory;
+
+public interface ClientGUIBuilder {
+
+	public void buildWindow(AbstractWidgetFactory widget);
+}

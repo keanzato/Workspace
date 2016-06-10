@@ -1,0 +1,13 @@
+package cl.curso.java.abstract_factory;
+
+import java.awt.Window;
+
+public class MacOSXWidgetFactory implements AbstractWidgetFactory{
+
+	public Window createWindow() {
+		
+		return null;
+	}
+
+	
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="cl.keanzato.app.bean.BeanPersona"/>
+<fullyQualifiedTypeName name="com.github.sarxos.webcam.Webcam"/>
+<fullyQualifiedTypeName name="javax.imageio.ImageIO"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="cl.curso.java.Login_app.login.Usuario"/>
+<fullyQualifiedTypeName name="cl.curso.java.Login_app.conexion.UsuarioDAO"/>
+<fullyQualifiedTypeName name="java.awt.Dimension"/>
+<fullyQualifiedTypeName name="cl.curso.java.Login_app.conexion.WebCamServices"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.awt.Window"/>
+<fullyQualifiedTypeName name="cl.curso.java.abstract_factory.Window"/>
+<fullyQualifiedTypeName name="cl.curso.java.abstract_factory.AbstractWidgetFactory"/>
+<fullyQualifiedTypeName name="cl.curso.java.abstract_factory.MsWindowWidgetFactory"/>
+<fullyQualifiedTypeName name="cl.curso.java.abstract_factory.MacOSXWidgetFactory"/>
+</qualifiedTypeNameHistroy>
