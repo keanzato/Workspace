@@ -85,30 +85,5 @@ public class Usuario {
 		this.intentosFallidos = intentosFallidos;
 	}
 
-	/**
-	 * 
-	 * @throws AutenticacionException
-	 * @throws CuentaBloqueadaException
-	 * @throws SQLException 
-	 * @throws IOException 
-	 */
-	public void login() throws AutenticacionException, CuentaBloqueadaException, SQLException, IOException {
-		
-
-		if (this.getIntentosFallidos() >= 3) {
-			throw new CuentaBloqueadaException("La cuenta ha sido bloqueada");
-		}
-		if (!(UsuarioDAO.validar(this))) {
-			this.intentosFallidos++;
-			
-			
-			WebCamServices.tomarFoto2(5);
-			throw new AutenticacionException("Usuario y/o Pass incorrectos");
-		}
-		else
-		{
-			JOptionPane.showMessageDialog(null, "Entraste el sistema.");
-		}
-
-	}
+	
 }

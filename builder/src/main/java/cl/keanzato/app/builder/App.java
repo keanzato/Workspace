@@ -13,5 +13,6 @@ public class App
         
         director.setBuilder(new BuilderAutoToyota());
         
+        System.out.println(director.construirAuto().getMarca());
     }
 }

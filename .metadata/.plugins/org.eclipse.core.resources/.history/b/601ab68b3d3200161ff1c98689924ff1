@@ -1,0 +1,11 @@
+package cl.curso.java.prueba_tres.CompositeApp;
+
+public class LineaSeparadora extends Menu {
+
+	@Override
+	public void pintarMenu() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

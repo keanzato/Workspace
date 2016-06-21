@@ -1,0 +1,6 @@
+127.0.0.1 - - [21/Jun/2016:11:33:37 -0300] "GET / HTTP/1.1" 404 961
+0:0:0:0:0:0:0:1 - - [21/Jun/2016:11:33:38 -0300] "GET /programatufuturo/index.html HTTP/1.1" 200 40649
+0:0:0:0:0:0:0:1 - - [21/Jun/2016:11:34:34 -0300] "GET /programatufuturo/snoop.jsp HTTP/1.1" 200 6984
+0:0:0:0:0:0:0:1 - - [21/Jun/2016:11:34:34 -0300] "GET /programatufuturo/images/jbosscorp_logo.png HTTP/1.1" 200 1914
+127.0.0.1 - - [21/Jun/2016:11:44:25 -0300] "GET / HTTP/1.1" 404 961
+0:0:0:0:0:0:0:1 - - [21/Jun/2016:11:44:25 -0300] "GET /programatufuturo/index.html HTTP/1.1" 200 36490

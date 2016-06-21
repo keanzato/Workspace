@@ -1,0 +1,20 @@
+package cl.curso.java.prueba_tres.CompositeApp;
+
+import java.util.ArrayList;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        SubMenu menu = new SubMenu("File", new ArrayList<Menu>());
+        menu.getMenus().add( new ItemMenu("Open File", "alt gr+2"));
+        menu.getMenus().add( new ItemMenu("Close", "alt+f4"));
+        menu.getMenus().add( new ItemMenu("Window", "ctrl+shift"));
+        menu.pintarMenu();
+        
+    }
+}

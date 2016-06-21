@@ -52,6 +52,17 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 		</list>
 	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
 		<list key="catalogUrl">
 			<item value="http://repo.maven.apache.org/maven2/archetype-catalog.xml"/>
@@ -59,6 +70,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Kevin Zambrano\workspace\Servers2"/>
 			<item value="C:\Users\Kevin Zambrano\workspace\abstract-factory"/>
 			<item value="C:\Users\Kevin Zambrano\workspace\appwebjee"/>
 		</list>
@@ -72,18 +84,22 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="cl.keanzato.app.webappcorejstl"/>
-			<item value="cl.curso.java.abstract_factory"/>
-			<item value="cl.curso.java.singleton_app"/>
+			<item value="cl.keanzato.app.login_web_app"/>
+			<item value="cl.keanzato.app.AppIngenieriaSoftware"/>
+			<item value="cl.keanzato.app.Observer"/>
+			<item value="cl.keanzato.app.DecoradorApp"/>
+			<item value="cl.keanzato.app"/>
+			<item value="cl.keanzato.app.AdapterApp"/>
 		</list>
 		<list key="groupId">
 			<item value="cl.keanzato.app"/>
-			<item value="cl.curso.java"/>
 		</list>
 		<list key="artifactId">
-			<item value="webappcorejstl"/>
-			<item value="abstract-factory"/>
-			<item value="singleton-app"/>
+			<item value="login-web-app"/>
+			<item value="AppIngenieriaSoftware"/>
+			<item value="Observer"/>
+			<item value="DecoradorApp"/>
+			<item value="AdapterApp"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

@@ -30,8 +30,8 @@ public class ServletRespuesta extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String usuario = "keanzato";
-		String password = "chupalo123";
+		String usuario = "nickoleh";
+		String password = "nicoledebieber123";
 		String respuesta = usuario;
 		
 		if(request.getParameter("txtUsuario").equals(usuario) && request.getParameter("txtPassword").equals(password))

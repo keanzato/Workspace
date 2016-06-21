@@ -1,0 +1,11 @@
+package cl.keanzato.app.DecoradorApp;
+
+public class PizzaEspañola extends PizzaDecorador {
+
+	public void cocinarPizza() {
+		this.getPizza().cocinarPizza();
+	}
+
+	
+}
+

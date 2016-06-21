@@ -1,0 +1,23 @@
+package cl.keanzato.app.AppIngenieriaSoftware.DAO;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import cl.keanzato.app.AppIngenieriaSoftware.Encapsulamiento.Alumno;
+
+public class AlumnoDAO {
+
+	public static List<Alumno> alumnos = new ArrayList<Alumno>();
+	
+	public static int buscar(String rut)
+	{
+		for(Alumno item : alumnos)
+		{
+			if(rut == item.getRut_alumno())
+				return 1;
+		}
+		return 0;
+	}
+	
+	
+}

@@ -1,0 +1,59 @@
+package cl.keanzato.programatufuturo.servlet;
+
+import java.io.IOException;
+import java.sql.SQLException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import cl.keanzato.programatufuturo.Facade.UsuarioFacade;
+import cl.keanzato.programatufuturo.modelo.AutenticacionException;
+import cl.keanzato.programatufuturo.modelo.CuentaBloqueadaException;
+import cl.keanzato.programatufuturo.modelo.Usuario;
+
+/**
+ * Servlet implementation class LoginServlet
+ */
+@WebServlet("/login")
+public class LoginServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public LoginServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, 
+			HttpServletResponse response) throws ServletException, IOException {
+		
+		String nombre = (String)request.getAttribute("txtUsuario");
+		String pass = (String)request.getAttribute("txtPassword");
+		
+		try {
+			UsuarioFacade.login(new Usuario(nombre, pass, 0));
+			
+		} catch (AutenticacionException e) {
+			
+			
+			e.printStackTrace();
+		} catch (CuentaBloqueadaException e) {
+			
+			
+			e.printStackTrace();
+		} catch (SQLException e) {
+			
+			
+			e.printStackTrace();
+		}
+	}
+
+}

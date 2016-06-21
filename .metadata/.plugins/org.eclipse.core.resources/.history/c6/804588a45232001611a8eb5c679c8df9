@@ -1,0 +1,7 @@
+package cl.keanzato.app.DecoradorApp;
+
+public abstract class PizzaDecorador implements Pizza {
+
+ 
+
+}

@@ -4,6 +4,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import cl.curso.java.Login_app.login.CuentaBloqueadaException;
 import cl.curso.java.Login_app.login.Usuario;
 
 
@@ -18,7 +19,7 @@ public class UsuarioDAO {
 	{
 		Conexion con = Conexion.getInstancia();
 		PreparedStatement st = con.getConnection().prepareStatement(
-				"select * from usuarios where "+
+				"select * from usuario where "+
 				"nombre_usuario =? AND "+
 				"password = ?;");
 			st.setString(1,  usuario.getUsuario());
@@ -28,5 +29,11 @@ public class UsuarioDAO {
 			return rs.next();
 	}
 	
-	
+	public static void aumentarIntentos(Usuario usuario) throws CuentaBloqueadaException
+	{
+		usuario.setIntentosFallidos(usuario.getIntentosFallidos()+1);
+		if (usuario.getIntentosFallidos() >= 3) {
+			throw new CuentaBloqueadaException("La cuenta ha sido bloqueada");
+		}
+	}
 }

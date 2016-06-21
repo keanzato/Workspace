@@ -1,0 +1,10 @@
+package cl.keanzato.app.DecoradorApp;
+
+public abstract class PizzaDecorador implements Pizza {
+
+	public void cocinarPizza() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

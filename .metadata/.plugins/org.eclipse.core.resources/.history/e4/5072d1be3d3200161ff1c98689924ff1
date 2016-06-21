@@ -1,0 +1,44 @@
+package cl.curso.java.prueba_tres.CompositeApp;
+
+public class ItemMenu extends Menu {
+
+	private String atajo;
+
+	/**
+	 * 
+	 */
+	public ItemMenu() {
+		super();
+	}
+
+	/**
+	 * @param nombre
+	 */
+	public ItemMenu(String nombre, String atajo) {
+		super(nombre);
+		this.atajo = atajo;
+	}
+
+	/**
+	 * @return the atajo
+	 */
+	public String getAtajo() {
+		return atajo;
+	}
+
+	/**
+	 * @param atajo the atajo to set
+	 */
+	public void setAtajo(String atajo) {
+		this.atajo = atajo;
+	}
+
+	@Override
+	public void pintarMenu() {
+		System.out.println( this.getNombre()+" "+
+				this.getAtajo());
+	}
+	
+	
+	
+}

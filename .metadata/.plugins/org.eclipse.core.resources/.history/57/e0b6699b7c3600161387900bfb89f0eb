@@ -1,0 +1,35 @@
+package cl.keanzato.app.AppIngenieriaSoftware.DAO;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+import cl.keanzato.app.AppIngenieriaSoftware.Encapsulamiento.Alumno;
+
+public class AlumnoDAO {
+
+	public static List<Alumno> alumnos;
+	
+	
+	/**
+	 * @return the alumnos
+	 */
+	public static List<Alumno> getAlumnos() {
+		return alumnos;
+	}
+
+	/**
+	 * @param alumnos the alumnos to set
+	 */
+	public static void setAlumnos(List<Alumno> alumnos) {
+		AlumnoDAO.alumnos = alumnos;
+	}
+	
+	public static Alumno buscar(String rut)
+	{
+		Collections.sort();
+	}
+
+	
+	
+}

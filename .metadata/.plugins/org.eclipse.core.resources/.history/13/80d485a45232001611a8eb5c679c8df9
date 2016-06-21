@@ -1,0 +1,7 @@
+package cl.keanzato.app.DecoradorApp;
+
+public class PizzaEspañola extends PizzaDecorador {
+
+	
+}
+

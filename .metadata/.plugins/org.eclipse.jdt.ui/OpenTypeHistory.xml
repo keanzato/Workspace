@@ -2,4 +2,7 @@
 <typeInfoHistroy>
 <typeInfo handle="=abstract-factory/C:\/Program Files\/Java\/jre1.8.0_91\/lib\/rt.jar&lt;javax.swing(WindowConstants.class[WindowConstants" modifiers="1537" timestamp="1464876185131"/>
 <typeInfo handle="=abstract-factory/src\/main\/java&lt;cl.curso.java.abstract_factory{Window.java[Window" modifiers="513" timestamp="1465485235789"/>
+<typeInfo handle="=kzambrano/C:\/Program Files\/Java\/jre1.8.0_91\/lib\/rt.jar&lt;java.lang(Comparable.class[Comparable" modifiers="1537" timestamp="1464876185131"/>
+<typeInfo handle="=DecoradorApp/src\/main\/java&lt;cl.keanzato.app.DecoradorApp{Pizza.java[Pizza" modifiers="513" timestamp="1465924280473"/>
+<typeInfo handle="=CompositeApp/src\/main\/java&lt;cl.curso.java.prueba_tres.CompositeApp{Comand.java[Comand" modifiers="513" timestamp="1466000833546"/>
 </typeInfoHistroy>
